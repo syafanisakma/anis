@@ -17,10 +17,10 @@ public class Server
             server = new ServerSocket(port); 
             System.out.println("Server is starting NOW so please wait for a moment...."); 
   
-            System.out.println("Waiting for the client to connect..wait for a while!^^"); 
+            System.out.println("Waiting for the client to connect..SABAR TAU!^^"); 
   
             socket = server.accept(); 
-            System.out.println("Client has received your message!hello!!"); 
+            System.out.println("Client has received your message!YEHAAAAA!!"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
@@ -42,7 +42,7 @@ public class Server
                     System.out.println(i); 
                 } 
             } 
-            System.out.println("Connection is CLOSING...Assakamualaikum !!"); 
+            System.out.println("Connection is CLOSING...HELLO!!"); 
   
             // close connection 
             socket.close(); 
